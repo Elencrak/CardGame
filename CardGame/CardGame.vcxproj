@@ -145,17 +145,40 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="EffectMultiple.h" />
+    <ClInclude Include="Effects\EffectSimple.h" />
+    <ClInclude Include="IEffect.h" />
+    <ClInclude Include="ITrigger.h" />
+    <ClInclude Include="Match.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Pool.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TriggerMultiple.h" />
+    <ClInclude Include="TriggerSimple.h" />
+    <ClInclude Include="Type.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Card.cpp" />
     <ClCompile Include="CardGame.cpp" />
+    <ClCompile Include="EffectMultiple.cpp" />
+    <ClCompile Include="Effects\EffectSimple.cpp" />
+    <ClCompile Include="IEffect.cpp" />
+    <ClCompile Include="ITrigger.cpp" />
+    <ClCompile Include="Match.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Pool.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TriggerMultiple.cpp" />
+    <ClCompile Include="TriggerSimple.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

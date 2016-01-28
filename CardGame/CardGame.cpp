@@ -2,10 +2,11 @@
 //
 
 #include "stdafx.h"
-
+#include <Windows.h>
 
 int main()
 {
+	system("Pause");
     return 0;
 }
 
